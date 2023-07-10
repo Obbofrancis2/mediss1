@@ -1,0 +1,146 @@
+/* 
+    .logo {
+      margin-right: 10px; width: 100px; 
+    }
+
+    div ul {
+      width: auto;
+    }
+
+    .navbar {
+      background-color: rgb(240, 245, 245);  Replace with your desired green color 
+      justify-content: center;}
+
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+    }
+
+    .hospital-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+
+       .navbar-toggler {background-color:rgba(32, 137, 132, 1) ;}
+
+ */
+
+ body {
+  background: linear-gradient(to right, rgba(32, 137, 132, 1) 0%, rgba(32, 137, 132, 1) 5%, rgba(109,196,156,1) 5%,
+  rgba(109,196,156,1) 10%, rgb(255, 255, 255) 10%, white 90%, rgba(109,196,156,1) 90%,
+  rgba(109,196,156,1) 95%, rgba(32, 137, 132, 1) 95%, rgba(32, 137, 132, 1) 100%);
+}
+
+/* nav element containing the menu*/
+.bg-light {
+  width: 60%;
+  margin-left: 20%;
+}
+/*adding style to the search button*/
+.input-group-append {
+  background-color: rgba(109,196,156,1) ;
+}
+.input-group-append .btn-outline-secondary{
+  color: white;
+}
+
+/*div containing the hospital data*/
+.hospital-info {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+  margin-top: 20px;
+  }
+  .hospital-info .card {
+    border: 2px rgba(109,196,156,1) solid;
+    border-radius: 20px;
+    height: 200px;
+  }
+  .col-md-4{
+    border-radius: 20px;
+  }
+
+ .logo {
+  margin-left: 100px;
+  width: 150px;
+}
+/* centering the menu*/
+.justify-content-center ul li {
+  background-color: rgba(32, 137, 132, 1);
+  border-radius: 10px;
+  margin: 10px;
+}
+.justify-content-center ul li a {
+  color: white;
+}
+
+.search-container { 
+  width: 50%;
+  margin-left: 25%;                  
+}
+
+.navbar {
+  background-color: rgb(240, 245, 245); /* Replace with your desired green color */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+/*styling for the hospital information*/
+
+.hospital-image img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* button on hover, click and active*/
+.btn-primary{
+  padding: 10px 20px;
+  background-color:rgba(32, 137, 132, 1);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  /* Styles on hover */
+  background-color: rgba(109,196,156,1);
+  color: #fff;
+}
+
+.btn-primary:active {
+  /* Styles when clicked */
+  background-color:rgba(109,196,156,1);
+  color: #fff;
+}
+
+.btn-primary:focus {
+  /* Styles when focused */
+  outline: none;
+  box-shadow: 0 0 0 3px #aaa;
+} 
+
+.btn-primary:visited {
+  /* Shared styles for different states */
+  background-color: rgba(109,196,156,1);
+  color: #fff;
+}
+.btn-primary:visited:not(focus) {
+  /* Shared styles for different states */
+  background-color: rgba(109,196,156,1);
+  color: #fff;
+}
+
+@media (min-width: 768px)
+

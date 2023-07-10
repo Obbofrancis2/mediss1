@@ -1,0 +1,142 @@
+body {
+  background: linear-gradient(to right, rgba(32, 137, 132, 1) 0%, rgba(32, 137, 132, 1) 5%, rgba(109,196,156,1) 5%,
+  rgba(109,196,156,1) 10%, rgb(255, 255, 255) 10%, white 90%, rgba(109,196,156,1) 90%,
+  rgba(109,196,156,1) 95%, rgba(32, 137, 132, 1) 95%, rgba(32, 137, 132, 1) 100%);
+}
+
+/* nav element containing the menu*/
+.bg-light {
+  width: 60%;
+  margin-left: 20%;
+}
+/*adding style to the search button*/
+.input-group-append {
+  background-color: rgba(109,196,156,1) ;
+}
+
+ .logo {
+  margin-left: 100px;
+  width: 100px;
+}
+/* centering the menu*/
+.justify-content-center ul li {
+  background-color: rgba(32, 137, 132, 1);
+  border-radius: 10px;
+  margin: 10px;
+}
+.justify-content-center ul li a {
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(240, 245, 245); /* Replace with your desired green color */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+
+
+/* from chat gpt
+* {
+  box-sizing: border-box;
+}
+
+.v59_4 {
+  width: 100%;
+  height: 672px;
+  background: url("../images/v59_4.png") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.v47_214 {
+  width: 100%;
+  height: 672px;
+  background: url("../images/v47_214.png") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.v16_187,
+.v46_82 {
+  height: 300px;
+  background: rgba(245, 245, 245, 1);
+  border: 1px solid rgba(109, 196, 156, 1);
+  border-radius: 26px;
+  overflow: hidden;
+  margin: 19px 20px;
+}
+
+.v16_189,
+.v16_192 {
+  color: rgba(32, 137, 132, 1);
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v16_189 {
+  width: 228px;
+  position: absolute;
+  top: 20px;
+  left: 39px;
+}
+
+.v16_192 {
+  width: 117px;
+  position: absolute;
+  top: 371px;
+  left: 95px;
+}
+*/
+
+.conntainer{
+  align-content: center;
+}
+.special, .news {
+  height: 150px;
+  background: rgba(245, 245, 245, 1);
+  border: 1px solid rgba(109, 196, 156, 1);
+  border-radius: 26px;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  justify-content: center;
+}
+.head {
+  color: rgba(32, 137, 132, 1);
+  font-family: Quicksand;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 1;
+  width: 40%;
+  height: 25px;
+  border: 1px solid rgba(109, 196, 156, 1);
+  border-radius: 26px;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color:rgb(164, 74, 60);
+  margin-top: 40%;
+  justify-self: center;
+  color: white;
+  width: 200px;
+  font-weight: 600;
+  margin-left: 40%;
+}
+
+@media (min-width: 768px) 
+
+

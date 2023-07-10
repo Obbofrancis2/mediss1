@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  /* .logo {
+    width: 250px;
+    height: 250px;
+    background: url("logo.png") no-repeat center center/cover;
+    opacity: 1;
+    margin-bottom: 20px;  
+  } */
+  .logo img {
+    width: 170px;
+    height: 170px;
+    background: url("logo.png") no-repeat center center/cover;
+    opacity: 1;
+    margin: 0 auto 20px; /* Added margin property to center the logo horizontally */
+  }
+  
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  
+  
+  label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    color:rgba(32, 137, 132, 1) ;
+    font-size: larger;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    height: 42px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: 4px solid rgba(32, 137, 132, 1);
+    border-radius: 21px; /* Set border-radius to half of the input height (42px / 2) */
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="email"]:focus,
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: rgba(21, 117, 113, 1); /* Change the focus color to rgba(21, 117, 113, 1) */
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-group {
+      width: 100%;
+    }
+  
+    label {
+      text-align: left;
+      font-size: 18px;
+    }
+  
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      font-size: 18px;
+    }
+  }
+  
